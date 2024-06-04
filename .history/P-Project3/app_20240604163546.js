@@ -1,4 +1,4 @@
-const circle = document.querySelector('#circle');
+const circle = Document.querySelector('#circle');
 
 circle.addEventListener('mouseenter', ()=>{
     if(!circle.classList.contains('hover')){
