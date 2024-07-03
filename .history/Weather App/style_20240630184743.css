@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: cornflowerblue;
+    color: white;
+    height: 80vh;
+}
+main, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 20vh;
+    
+}
+input{
+    border: none;
+    border-bottom: 3px solid grey;
+    width: 40vw;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+
+}

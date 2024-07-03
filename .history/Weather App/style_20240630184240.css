@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: cornflowerblue;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: bottom;
+}
