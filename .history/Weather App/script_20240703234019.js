@@ -4,7 +4,7 @@ let input = document.querySelector('input');
 let temperature = document.querySelector('#temperature');
 let CityN = document.querySelector('#CityName');
 let DateTime = document.querySelector('#DateTime');
-let WeatherImg = document.querySelector('#Weather-Image');
+let WeatherImg = document.querySelector('#Weather_Image');
 let weatherC = document.querySelector('#Condition');
 
 form.addEventListener('submit',function(e){
@@ -36,7 +36,7 @@ function UpdateWeather(Temp_celsius,Weather_Conditions,condition_image,locationN
     CityN.innerText = locationName;
     DateTime.innerText = locationTime;
     WeatherImg.src = "https:"+condition_image;
-    weatherC.innerText = Weather_Conditions;
+    //weatherC.innerText = Weather_Conditions;
     
 }
 

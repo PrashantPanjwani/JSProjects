@@ -7,13 +7,10 @@ main{
     background-color: #62b4d5;
     color: white;
     height: 80vh;
-   
+    font-size: large;
 }
 .weather-conditions{
     display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
 }
 main div{
     margin: 1rem;
@@ -24,7 +21,7 @@ main, form{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 form{
     height: 20vh;

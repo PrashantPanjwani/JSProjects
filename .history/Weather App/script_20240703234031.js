@@ -4,7 +4,7 @@ let input = document.querySelector('input');
 let temperature = document.querySelector('#temperature');
 let CityN = document.querySelector('#CityName');
 let DateTime = document.querySelector('#DateTime');
-let WeatherImg = document.querySelector('#Weather-Image');
+let WeatherImg = document.querySelector('#Weather_Image');
 let weatherC = document.querySelector('#Condition');
 
 form.addEventListener('submit',function(e){
