@@ -32,7 +32,7 @@ async function getWeather(cityName){
 }
 
 function UpdateWeather(Temp_celsius,Weather_Conditions,condition_image,locationName,locationTime){
-    temperature.innerText = Temp_celsius+"° C";
+    temperature.innerText = Temp_celsius+"C";
     CityN.innerText = locationName;
     DateTime.innerText = locationTime;
     WeatherImg.src = "https:"+condition_image;
