@@ -2,10 +2,10 @@ import {Link} from 'react-router-dom'
 export default function Navbar(){
     return (
         <div className="flex items-center">
-            <img className="h-11" src="" alt="" />
+            <img className="h-11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb-LgjwzNyCwZOP8Acw2B1E1Ni2DJDoBLtjioW86H6Kw&s" alt="" />
             <Link className="m-4 text-blue-600 text-3xl font-bold" to="/">Movies</Link>
-           <Link className="text-blue-600 text-3xl font-bold" to="/watchlist">Watchlist</Link>
            
+            <a className="text-blue-600 text-3xl font-bold" href="/watchlist">Watchlist</a>
         </div>
     )
 }
